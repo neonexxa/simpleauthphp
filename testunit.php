@@ -9,7 +9,7 @@ class Test extends PHPUnit_Framework_TestCase
 
   	public function testindex()
     {
-        $this->get('https://websitesetup.org/cms-comparison-wordpress-vs-joomla-drupal/');
+        require 'index.php';
     }
 }
 ?>
