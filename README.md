@@ -7,5 +7,5 @@ Simple auth for dummy native php
 # Develepment
 Build version 1
 
-LICENSE
+# LICENSE
 [MIT](https://github.com/neonexxa/simpleauthphp/blob/master/LICENSE)
