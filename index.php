@@ -1,8 +1,8 @@
 <?php 
 session_start();
 // die($_SESSION['name']);
-if (isset($_SESSION['name'])){
-	$current_user = $_SESSION['name'];
+if (isset($_SESSION['name'])) {
+    $current_user = $_SESSION['name'];
 }
 
 require 'header.php';
@@ -16,12 +16,12 @@ require 'header.php';
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
 			
 			<?php 
-			if (isset($current_user)){
-				echo '<li><a href="#">Hello, '.$current_user.'</a></li><li><a href="/logout.php">Logout</a></li>';
-			}else{
-				echo '	<li><a href="/login.php">Login</a></li>';
-			}
-			 ?>
+            if (isset($current_user)) {
+                echo '<li><a href="#">Hello, '.$current_user.'</a></li><li><a href="/logout.php">Logout</a></li>';
+            } else {
+                echo '	<li><a href="/login.php">Login</a></li>';
+            }
+             ?>
 			</ul>
 	    </div>
 	</nav>
@@ -100,8 +100,8 @@ require 'header.php';
     
 	<!-- js will be here -->
 	<?php 
-		require 'footer.php';
-	 ?>
+        require 'footer.php';
+     ?>
 	<script>
 		$(document).ready(function(){
 			$('.carousel.carousel-slider').carousel({fullWidth: true});	
