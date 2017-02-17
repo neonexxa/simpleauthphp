@@ -1,8 +1,8 @@
 <?php 
 session_start();
 // die($_SESSION['name']);
-if (isset($_SESSION['name'])){
-	header("Location: /index.php"); 
+if (isset($_SESSION['name'])) {
+    header('Location: /index.php');
 }
 
 require 'header.php';
@@ -31,7 +31,7 @@ require 'header.php';
 		</div>
 	</div>
 	<?php 
-		require 'footer.php';
-	 ?>
+        require 'footer.php';
+     ?>
 </body>
 </html>
