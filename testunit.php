@@ -7,9 +7,5 @@ class Test extends PHPUnit_Framework_TestCase
 		$this->assertEquals(2,2);
   	}
 
-  	public function testindex()
-    {
-        require 'index.php';
-    }
 }
 ?>
